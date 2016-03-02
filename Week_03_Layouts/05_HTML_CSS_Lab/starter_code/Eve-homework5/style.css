@@ -1,0 +1,47 @@
+header{background-color: black;
+	padding: 10px;
+}
+
+h1{color:yellow;
+font-family: Georgia, serif;
+}
+
+nav{color:white;
+text-align: right;
+}
+
+h3{font-family: Athelas;
+	font-weight: 800;
+	color:black;
+	font-size:24px;
+}
+
+p{font-family: Myriad Pro;
+	font-size:16px;
+	} 
+
+.button{display: block;
+    background:#b1b2b3 ;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'IMPACT', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: black ;
+    border-radius:5px;
+    margin: 0 auto; height:30px; width:150px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-box-shadow: 0 2px;
+    -moz-box-shadow: 0 2px;
+    -o-box-shadow: 0 2px;}
+
+.signup, .developer, .designer {width:31%; 
+	height: auto; 
+	display: inline-block;
+	padding:1%;
+}
+
+.developer, .designer{border-left: thin solid lightgrey;}
+
