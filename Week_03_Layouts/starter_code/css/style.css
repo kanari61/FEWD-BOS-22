@@ -82,34 +82,43 @@ float: left;
 nav {float: right;}
 header nav a {color: #f9e42e;
 font-size:24px;
-text-decoration: none;}
+text-decoration: none;
+}
 
 .blog1{width:700px;
-float: left;}
+float: left;
+}
 
 .blog2{width:700px;
-float: left;}
+float: left;
+}
 
 h2{width: 700px;
   height:auto;
   color: #033048;
   font-size: 40px;
   font-weight: 600;
-  padding:20px; }
+  padding:20px; 
+}
 
 .blog1 p, .blog2 p{color: #121212;
   font-size: 24px;
-  font-weight:300;}
+  font-weight:300;
+}
 
 .blog1 a, .blog2 a{color: #033048;
 font-weight:600;
 float: right;
 margin: 20px 0 10px auto;
-font-size: 24px;}
+font-size: 24px;
+}
+
 aside{width:200px;
  float: right;
  position: relative;;
- left:0px; } 
+ left:0px; 
+} 
+
 h3{color: #033048;
   font-weight: 800;
   font-size: 32px;
@@ -122,39 +131,59 @@ p{color: #033048;
 }
 
 
-aside nav{float: left;}
+aside nav{float: left;
+}
+
 aside nav a{color: #033048;
   font-size: 24px;
   font-weight: 300;
   line-height: 1.7;
   float: left;
   clear: left;
-  text-decoration: none;}
+  text-decoration: none;
+}
+
 aside a{color: #033048;
   font-size: 22px;
-  font-weight: 600;}
+  font-weight: 600;
+}
+
 img .ad{
    width: 200px;
   height: auto;}
+
 section.yellow{height: 100px;
   background-color: yellow;
-clear: both;}
+clear: both;
+}
+
 a .yellow {color: white;
 font-weight: 800;
-font-size: 22px;}
-section.botton{
-  clear: both;
-  width: 150px;
-  height: 40px;
-  margin: -20px auto;
-  background: #033048;
-  top: 18px;
-  position: relative;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius:5px;
-  border-radius: 5px;
-  text-align: center
+font-size: 22px;
+}
+
+.button{
+    display: block;
+    height: 40px;
+    width:200px;
+    position: relative;
+    top: 20px;
+    left: 380px;
+    background: #033048;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -webkit-box-shadow: 0 3px;
+    -moz-box-shadow: 0 3px;
+    -o-box-shadow: 0 8px;
+  }
+
+.sign{color:white;
+text-decoration: none;
 }
 
 footer {clear: both;
@@ -170,9 +199,11 @@ font-weight: 800;
 
 #copy{clear: both;
   color: white;
-  font-size: 12px;}
+  font-size: 12px;
+}
 
-.icon{margin: 20px;}
+.icon{margin: 20px;
+}
 
 
 /******************************************
